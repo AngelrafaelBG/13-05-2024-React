@@ -4,6 +4,7 @@ import NoExiste from './Componentes/NoExiste'
 import Principal from './Componentes/Pag_Principal/Principal'
 import PlantillaPrincipal from './Componentes/PlantillaPrincipal'
 import DetalleProducto from './Componentes/Producto/DetalleProducto'
+import "./assets/Ofertas.css"
 import "./Componentes/NoExiste.css"
 import "./Componentes/Presentacion/Presentacion.css"
 import "./assets/banner.css"

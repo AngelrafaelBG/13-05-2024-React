@@ -30,7 +30,8 @@ const COntedorOfertas = () => {
 
     return (
         <div>
-            <h1>Ofertas de la semana</h1>
+            <div className="P2">
+            <h2>Ofertas de la semana</h2></div>
             {
                 datos.length > 0 &&
                 <div className="contenedor6">

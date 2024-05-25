@@ -2,16 +2,14 @@ const NoExiste = () => {
     return (
         <>
         <body className="Pagina2">    
-        <div className="container">
-
-            <div className="img2">
-        <img src="" alt=""/></div>
-        
-        <h1>La página que ha solicitado no se encuentra disponible</h1>
-        <div className="boton">
-            <button>Volver atras</button>
+        <div className="error_container">
+        <div className="error_code">
+            <p>4</p><p>0</p><p>4</p>
         </div>
-    </div>
+        <div className="error_title">Página no encontrada</div>
+        <div className="error_description">Parece que no podemos encontrar esa página. Puede que se haya eliminado.</div>
+        <button className="action">Ir a Inicio</button>
+        </div>
     </body>
         </>
     )

@@ -73,6 +73,7 @@ body{
     font-size: sans-serif;
     color: #000;
     margin: 5px;
+    border: orange 5px solid;
 }
 .Forma{
     background: #002244;

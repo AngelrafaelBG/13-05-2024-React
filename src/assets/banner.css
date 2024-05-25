@@ -42,6 +42,7 @@ body.Pagina3{
     border-top-left-radius:10px ;
     border-bottom-left-radius: 10px; /* Redondear esquina inferior izquierda */
     border-bottom-right-radius: 10px;
+    background-color: black;
 }
 .Boton{
     position: absolute;
@@ -73,6 +74,7 @@ body.Pagina3{
     border-radius: 10px;
     border-top-right-radius: 10px; /* Redondear esquina superior derecha */
     border-bottom-left-radius: 10px; /* Redondear esquina inferior izquierda */
+    background-color: black;
 }
 .Informacion{
     position: relative;
