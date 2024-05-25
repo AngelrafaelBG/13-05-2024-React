@@ -2,7 +2,7 @@
 
 nav.menu{
     font-family: "Poppins", sans-serif;
-    position: fixed;
+    position: relative;
     z-index: 99;
     width: 100%;
     background: #242526;
