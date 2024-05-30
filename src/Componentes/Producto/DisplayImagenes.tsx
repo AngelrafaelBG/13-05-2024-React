@@ -17,6 +17,7 @@ const DisplayImagenes = ({imagenes} : Props) => {
         } 
     }
     return (
+        <div className="ContenedorPadreDisplay">
         <div className="display-imagenes">
             <div className="imagen-principal">
                 <img src={imagenActual} />
@@ -32,6 +33,7 @@ const DisplayImagenes = ({imagenes} : Props) => {
                 </div>
                 {imagenes.length > 4 && <button onClick={()=> mover ("der")}>&gt;</button>}
             </div>
+        </div>
         </div>
     )
 }

@@ -1,0 +1,42 @@
+.Contenedor7{
+    position: relative;
+    width: 45%;
+    margin-left:700px ;
+    margin-top: -550px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0.5, 0.5, 0.5, 0.5);
+
+}
+.ContenedorPadreDisplay{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.ContenedorBoton{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.BotonMenos{
+    width: 25px;
+    height: 30px;
+    margin: 2px ;
+}
+.BotonMas{
+    width: 25px;
+    height: 30px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.Cantidad{
+    text-align: center;
+    font-size: 20px;
+
+}
+.SKU{
+    color: gray;
+}
+.Envio{
+    color: blue;
+}
